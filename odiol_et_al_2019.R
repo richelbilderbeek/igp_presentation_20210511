@@ -45,4 +45,4 @@ ggplot2::ggplot(t_auc, ggplot2::aes(x = technique, y = auc)) +
       angle = 90, vjust = 0.5, hjust = 1
     ),
     text = ggplot2::element_text(size = 24)
-  ) + ggplot2::ggsave("~/odiol_et_al_2019.png", width = 7, height = 7)
+  ) ; ggplot2::ggsave("~/odiol_et_al_2019.png", width = 7, height = 7)
